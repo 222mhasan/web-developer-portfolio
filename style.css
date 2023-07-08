@@ -1,0 +1,14 @@
+
+/* Header Area */
+.nav_bar{
+    display: flex;
+}
+
+.header_main{
+    display: flex;
+}
+
+/* About Area  */
+.about_area_info{
+    display: flex;
+}
