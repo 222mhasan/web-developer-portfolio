@@ -13,7 +13,20 @@
     display: flex;
 }
 
-/* skill_part */
+/* skill Area */
 .skill_part{
     display: flex;
+}
+
+/* Summary Area */
+.summary_resume{
+    display: flex;
+}
+
+/* Footer Area */
+.footer_area{
+}
+
+.form_control{
+    display: block;
 }
