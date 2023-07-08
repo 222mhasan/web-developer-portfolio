@@ -12,3 +12,8 @@
 .about_area_info{
     display: flex;
 }
+
+/* skill_part */
+.skill_part{
+    display: flex;
+}
