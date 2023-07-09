@@ -1,32 +1,88 @@
-
-/* Header Area */
-.nav_bar{
-    display: flex;
+/* Open sans font */
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.header_main{
+/* common shared styles */
+.text_primary {
+    color: #FD6E0A;
+}
+
+.btn_primary {
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+/* Header Area */
+/* Nav bar  */
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_icon {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.menu_bar>ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu_bar > ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu_bar>ul li a {
+    text-decoration: none;
+    color:  #474747;
+}
+
+.menu_bar>ul li button {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.header_main {
     display: flex;
 }
 
 /* About Area  */
-.about_area_info{
+.about_area_info {
     display: flex;
 }
 
 /* skill Area */
-.skill_part{
+.skill_part {
     display: flex;
 }
 
 /* Summary Area */
-.summary_resume{
+.summary_resume {
     display: flex;
 }
 
 /* Footer Area */
-.footer_area{
+.footer_area {
+    display: flex;
+
 }
 
-.form_control{
-    display: block;
+.form_control {
+    /* display: block; */
 }
